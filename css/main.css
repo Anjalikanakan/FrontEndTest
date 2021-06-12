@@ -1,0 +1,589 @@
+/* -- Pages -- */
+/* -----------------------------------------
+   home Page
+----------------------------------------- */
+@font-face {
+    font-family: "Sailec-Medium";
+    src: url("/fonts/Type Dynamic - Sailec.otf") format("otf"),
+  }
+body{
+    font-size:14px;
+    font-weight:300;
+    font-family: Sailec,sans-serif;
+}
+.banner{
+    height: 740px;
+    width: 1006px;
+    left: 28px;
+    top: -124px;
+    border-radius: 0px;
+}
+.header-left-bx{
+    display: inline-block;
+    position: absolute;
+    left: 5%;
+    padding: 35px;
+}
+.header-left-bx .left_logo a{
+color:#fff;
+text-decoration: none;
+}
+.banner h1{
+    position: relative;
+    bottom: 73%;
+    text-align: justify;
+    padding: 20px 100px;
+    color: #FFF;
+    font-size: 88px;
+    font-weight: 700;
+}
+.banner p{
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 27px;
+    letter-spacing: 0em;
+    position: absolute;
+    bottom: 35%;
+    text-align: justify;
+    left: 8%;
+    height: 46px;
+    width: 404px;
+    top: 388px;
+    color: #d2d2d2;
+}
+.rightbanner img{
+    height: 560px;
+    width: 560px;
+}
+.rightbanner{
+    left: 788px;
+    top: 50px;
+    border-radius: 0px;
+    position: absolute;
+}
+.checkprd{
+    position: relative;
+    bottom: 57%;
+    padding: 10px 94px;
+}
+.checkprd button{
+    border: 1px solid #c7e1bf;
+    border-radius: 48px;
+    height: 55px;
+    width: 138px;
+    background: #C7E1BF;
+    color: #102522;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: bold;
+}
+.checkprd button:hover{
+    background: #fff;
+}
+
+.product_sec .posts{
+    padding: 18px;
+    }
+    .heading-sub-heading h2{
+        font-size: 44px;
+        color: #151442;
+        font-weight: 500;
+        position: relative;
+        padding-bottom: 20px;
+        margin-bottom: 20px;
+    }
+ .product_sec .categories_text h2 {
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 54px;
+    letter-spacing: 0em;
+    text-align: center;
+    }
+    .product_sec .posts span{
+        color: #848484;
+    }
+
+    .product_sec .posts p{
+        padding-top: 10px;
+        font-size: 14px;
+        font-weight: 50;
+        line-height: 24px;
+        letter-spacing: 0em;
+    }
+.ftr-btm-bar{position:relative;padding:80px 0 110px;background:#0F2421}
+.ftr-btm-bar h2{
+    font-size: 34px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 40px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #fff;
+}
+.footer_widget li a {
+    color: #fff;
+    line-height: 28px;
+    font-weight: 400;
+    font-size: 14px;
+    text-transform: capitalize;
+    display: block;
+    padding-bottom: 5px;
+    text-decoration: none;
+}
+.footer_widget h3{
+    color:#fff;
+    font-size: 24px;
+    padding-left: 30px;
+}
+.toptopage{
+    background-color: #969696;
+    padding: 10px;
+    cursor: pointer;
+    position: relative;
+    float: right;
+    left: 40%;
+}
+.toptopage i{
+ transform: rotate(268deg);      
+}
+.glancesec .categories_text{text-align: center;padding: 22px;}
+.testimonial img{
+    width:100%;
+ 
+}
+.testimonial .testimquote{
+    height: 740px;
+}
+.testimonial  h1{
+    position: relative;
+    font-size: 54px;
+    bottom: 55%;
+    font-weight: 500;
+    color:#fff;
+    padding: 23px 40px;
+}
+.testimonial  p{
+    color: #545454;
+    font-size: 21px;
+    position: absolute;
+    display: block;
+    max-width: 345px;
+    text-align: justify;
+    left: 18%;
+    top: 72px;
+}
+.testimonial .pqutote{
+    position: relative;
+    height: 251px;
+    width: 520px;
+    bottom: 78%;
+    left: 58%;
+    font-size: 10px;
+    background: #ffede7;
+    padding: 43px;
+    border: 1px solid #717171;
+    box-shadow: 0px 2px 5px 1px #636363;
+}
+
+
+.fulwraper{width:100%;float:left}header{position:fixed;left:0;top:0;width:100%;z-index:999}
+.main-menu-li{float:left;margin-right:5px}
+.main-menu-li:last-child{margin-right:0}
+.main-menu-li.active .toggle-anchor,.toggle-anchor:hover{color:#fff;}
+.fulwraper{width:100%;float:left}header{position:fixed;left:0;top:0;width:100%;z-index:999}
+.header-inner,.logo-bx{position:relative;transition:.4s;-webkit-transition:.4s}
+.fixed-header{background:#7b7b7b05;padding: 14px!important;box-shadow:0 3px 11px rgba(0,0,0,.2)}
+.fixed-header .toggle-anchor{color:#6aaf08;}
+.fixed-header .logo-bx>a{background:url() left bottom no-repeat}
+.fixed-header .toggle-anchor:focus:before{
+visibility: visible;
+    transform: scaleX(1); 
+    border-bottom:1px solid #f8b705;
+}
+
+.fixed-header .toggle-anchor:hover{color:#fff;background-color: #6aaf08;}
+.menu-right{float:right;}
+.main-menu{padding-top:12px;float:left}
+.main-menu-li{float:left;margin-right:5px;list-style: none;}
+.main-menu-li:last-child{margin-right:0}
+
+.toggle-anchor {
+transition: .4s;
+-webkit-transition: .4s;
+padding: 10px 14px;
+font-size: 14px;
+}
+.main-menu-li a{color:#fff;text-decoration: none;}
+.banner img{width: 100%; height: 660px;}
+
+.left_logo img{width: 54%;}
+.navbar-dark .navbar-toggler{background-color: #6aaf08;}
+@media screen and (max-width: 768px){
+.navbar-collapse.collapse.show{    background: #6aaf08;
+    height: 91px;
+    margin-right: 0px;}
+.navbar-collapse.collapse.show .main-menu-ul{padding: 10px}
+.fixed-header .navbar-collapse.collapse.show .main-menu-ul li a{color: #fff;}
+}
+.navbar .navbar-header button{
+    border: none;
+    background: none;
+    color: #0063ae;
+}
+.navbar-nav{
+    padding: 10px;
+    background-color: #0063ae;
+  
+    color: #fff;
+}
+.navbar-nav li a{
+    color: #fff;
+    text-decoration: none;
+    font-size: 12px;
+}
+.navbar .navbar-header button:hover{
+    background:#0063ae;
+    color: #fff;
+    border:1px solid #333;
+}
+
+.all-same-section{padding:20px 0}
+
+.hover-section:hover .heading-sub-heading h2:after{width:200px}
+.heading-sub-heading{text-align:center;margin-bottom:30px;margin-top: 20px;}
+
+.heading-sub-heading p{color:#727272;font-size:18px;display:block;line-height:28px;
+  margin: 30px 0 20px 0;}
+.heading-sub-heading h2:after{content:'';height:2px;width:100px;bottom:0;left:0;right:0;margin:0 auto;
+background-color:#0063ae;transition:all .4s ease-in-out;position:absolute}
+
+.copyright-p{margin:20px 0;font-size:15px;color:#bbb}
+.copyright-p a{transition:.4s;-webkit-transition:.4s;color:#bbb}
+.copyright-p a:nth-child(1){color:#067fc8}
+.copyright-p a:hover{color:#fff}.inner-apge-banner{min-height:677px}
+
+.glancesec i{font-size: 25px;}
+.glancesec {
+    width: 100%;
+    height: 128px;
+}
+.glancesec .categories_text h5{
+    font-size: 18px;
+}
+
+.glancesec:hover .categories_text h5,.glancesec:hover i{
+    color:#0063ae;
+}
+
+.product_sec .posts img{
+    width:100%;
+}
+.product_sec .posts button{
+    background-color: #0063ae;
+    border-radius: 5px;
+    padding: 1px 10px;
+    border: 1px solid #0178d2;
+    color: #fff;
+    font-size: 12px;
+}
+.product_sec .posts button:hover{
+    background-color: #fff;
+    color:#0063ae;
+    border-color:#0063ae;
+}
+
+.product_sec {
+    margin-bottom: 40px;
+}
+.banner h1:before {
+    -webkit-text-stroke: 0vw #f7f7fe;
+    animation: animate 6s linear infinite;
+}
+ .contact_form .p_t {
+    padding: 12px 0px;
+}
+.contact_form .form-control {
+    border-radius: 0px;
+    font-size: 12px;
+}
+.contact_form .form-control:focus{
+    border: 1px solid #eaeaea;
+    box-shadow: none;
+}
+.contact_form .form-control:disabled, .form-control:read-only {
+    background-color: transparent;
+}
+ .contact_form button {
+    border: 1px solid #0063ae;
+    background-color: transparent;
+    color: #0063ae;
+    font-weight: bold;
+    transition: .3s;
+    -webkit-transition: .3s;
+    width: 117%;
+    padding: 12px;
+}
+.contact_form button:hover {
+    background-color: #0063ae;
+    color: #fff;
+}
+
+.error {
+    color: red;
+    }
+.contact_form .form-control    {
+        appearance: auto !important;
+}
+.product_sec .posts img:hover {
+    animation: shake 0.5s;
+    animation-iteration-count: infinite;
+    }
+.vitaminlist .posts img:hover {
+    animation:none !important;
+}
+    
+    @keyframes shake {
+    0% { transform: translate(1px, 1px) rotate(0deg); }
+    10% { transform: translate(-1px, -2px) rotate(-1deg); }
+    20% { transform: translate(-3px, 0px) rotate(1deg); }
+    30% { transform: translate(3px, 2px) rotate(0deg); }
+    40% { transform: translate(1px, -1px) rotate(1deg); }
+    50% { transform: translate(-1px, 2px) rotate(-1deg); }
+    60% { transform: translate(-3px, 1px) rotate(0deg); }
+    70% { transform: translate(3px, 1px) rotate(-1deg); }
+    80% { transform: translate(-1px, -1px) rotate(1deg); }
+    90% { transform: translate(1px, 2px) rotate(0deg); }
+    100% { transform: translate(1px, -2px) rotate(-1deg); }
+    }
+
+    @media only screen and (max-width: 320px){
+        .banner p {
+            font-size: 32px;
+            top: 248px;
+        }
+        .heading-sub-heading h2{
+            font-size: 54px;
+        }
+        .heading-sub-heading p{
+            font-size: 24px;
+        }
+        .product_sec .categories_text h2{
+            font-size: 32px;
+        }
+        .product_sec .posts span{
+            font-size: 18px;
+        }
+        .rightbanner {
+            left: 581px;}
+            .product_sec .posts p{
+                font-size: 18px;
+            }
+            .testimonial p{
+                font-size: 22px;
+            }
+            .checkprd{
+                bottom:50%
+            }
+            .testimonial .testimquote {
+                height: 543px;
+            }
+            .banner h1{
+                font-size: 42px
+            }
+            .testimonial .pqutote {
+                width: auto;
+                left:0;
+            }
+            .testimonial h1{
+                bottom: 78%;
+            }
+    }
+    @media only screen and (min-width: 321px) and (max-width: 400px){
+        .banner p {
+            font-size: 32px;
+            top: 248px;
+        }
+        .heading-sub-heading h2{
+            font-size: 54px;
+        }
+        .heading-sub-heading p{
+            font-size: 24px;
+        }
+        .product_sec .categories_text h2{
+            font-size: 32px;
+        }
+        .product_sec .posts span{
+            font-size: 18px;
+        }
+        .rightbanner {
+            left: 581px;}
+            .product_sec .posts p{
+                font-size: 18px;
+            }
+            .testimonial p{
+                font-size: 22px;
+            }
+            .checkprd{
+                bottom:50%
+            }
+            .testimonial .testimquote {
+                height: 543px;
+            }
+            .banner h1{
+                font-size: 44px
+            }
+            .container-fluid{
+                margin:0;
+                padding: 0;
+            }
+            .testimonial .pqutote {
+                width: auto;
+                left:0;
+            }
+            .testimonial h1{
+                bottom: 78%;
+            }
+    }
+    @media only screen and (min-width: 401px) and (max-width: 600px){
+        .banner p {
+            font-size: 32px;
+            top: 248px;
+        }
+        .heading-sub-heading h2{
+            font-size: 54px;
+        }
+        .heading-sub-heading p{
+            font-size: 24px;
+        }
+        .product_sec .categories_text h2{
+            font-size: 32px;
+        }
+        .product_sec .posts span{
+            font-size: 18px;
+        }
+        .rightbanner {
+            left: 581px;}
+            .product_sec .posts p{
+                font-size: 18px;
+            }
+            .testimonial p{
+                font-size: 22px;
+            }
+            .checkprd{
+                bottom:50%
+            }
+            .testimonial .testimquote {
+                height: 543px;
+            }
+            .banner h1{
+                font-size: 44px
+            }
+            .container-fluid{
+                margin:0;
+                padding: 0;
+            }
+            .testimonial .pqutote {
+                width: auto;
+                left:0;
+            }
+            .testimonial h1{
+                bottom: 78%;
+            }
+    }
+    @media only screen and (min-width: 601px) and (max-width: 768px){
+        .banner p {
+            font-size: 32px;
+            top: 248px;
+        }
+        .heading-sub-heading h2{
+            font-size: 54px;
+        }
+        .heading-sub-heading p{
+            font-size: 24px;
+        }
+        .product_sec .categories_text h2{
+            font-size: 32px;
+        }
+        .product_sec .posts span{
+            font-size: 18px;
+        }
+        .rightbanner {
+            left: 581px;}
+            .product_sec .posts p{
+                font-size: 18px;
+            }
+            .testimonial p{
+                font-size: 22px;
+            }
+            .checkprd{
+                bottom:50%
+            }
+            .testimonial .testimquote {
+                height: 543px;
+            }
+            .banner h1{
+                font-size: 44px
+            }
+            .container-fluid{
+                margin:0;
+                padding: 0;
+            }
+            .testimonial .pqutote {
+                width: auto;
+                left:0;
+            }
+            .testimonial h1{
+                bottom: 78%;
+            }
+    }
+    @media only screen and (min-width: 769px) and (max-width: 992px){
+        .banner p {
+            font-size: 20px;
+            top: 304px;
+            left: 11%;
+        }
+        .container-fluid{
+            margin:0;
+            
+        }
+        .heading-sub-heading h2{
+            font-size: 54px;
+        }
+        .heading-sub-heading p{
+            font-size: 24px;
+        }
+        .product_sec .categories_text h2{
+            font-size: 32px;
+        }
+        .product_sec .posts span{
+            font-size: 18px;
+        }
+        .rightbanner {
+            display: none;
+        }
+            .product_sec .posts p{
+                font-size: 18px;
+            }
+            .testimonial p{
+                font-size: 22px;
+            }
+            .checkprd{
+                bottom:50%;
+                margin:0;
+            }
+            .testimonial .testimquote {
+                height: 543px;
+            }
+            .banner h1{
+                font-size: 44px
+            }
+            .testimonial .pqutote {
+                width: auto;
+                left:0;
+            }
+            .testimonial h1{
+                bottom: 78%;
+            }
+    }

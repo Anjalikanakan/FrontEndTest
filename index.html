@@ -1,0 +1,499 @@
+<!DOCTYPE html>
+<html class="no-js" lang="">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title></title>
+
+    <meta name="description" content="">
+
+    <!-- Favicon-->
+    <link rel="shortcut icon" type="image/x-icon" href="img/favicon.ico" />
+    <link rel="stylesheet" href="font-awesome/css/font-awesome.min.css">
+    <link rel="stylesheet" href="font-awesome/css/font-awesome.min.css">
+    <!-- bootstrap CSS-->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <!-- Style CSS-->
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href=" https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.css">
+    <!-- Jquery -->
+    <script src="js/jquery-3.5.1.min.js"></script>
+    <!-- Bootstrap js -->
+    <script src="js/bootstrap.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.3.16/angular.min.js"></script>
+    <!-- slider css -->
+
+    <script>
+        var app = angular.module('formApp', []);
+        app.controller('formCtrl', function ($scope) {
+
+            $scope.sendForm = function () {
+                $scope.msg = 'Form Submited Successfully';
+            };
+            $scope.contact = {
+                "name": "",
+                "role": "Naturelo",
+                "phono": "",
+                "msg": "",
+                "email": "",
+            }
+
+        });
+    </script>
+
+</head>
+
+<body ng-app="formApp" ng-controller="formCtrl">
+
+    <!-- <header>
+        <div class="fulwraper header-inner fixed-header">
+
+            <div class="menu-right">
+
+                <div class="main-menu">
+
+                    <div class="pull-left">
+
+                        <nav class="navbar navbar-inverse">
+                            <div class="container-fluid">
+                                <div class="navbar-header">
+                                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                                        <i class="fa fa-bars"></i>
+                                    </button>
+
+                                </div>
+                                <div class="collapse navbar-collapse" id="myNavbar">
+                                    <ul class="nav navbar-nav">
+                                        <li class="active">
+                                            <a href="#">Home</a>
+                                        </li>
+                                        <li>
+                                            <a href="#">Products</a>
+                                        </li>
+                                        <li>
+                                            <a href="#">Contact us</a>
+                                        </li>
+                                    </ul>
+
+                                </div>
+                            </div>
+                        </nav>
+
+
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </header> -->
+    <!-- Header section -->
+<div class="container-fluid">
+    <div class="row">
+        <div class="col-md-8">
+            <div class="banner">
+                <img src="images/bg.png" class="img-responsive">
+                <div class="header-left-bx">
+
+                        <div class="left_logo">
+                            <a href="index.html">
+                               KALOSE
+                            </a>
+        
+                        </div>
+        
+                    </div>
+                <h1 class="animated zoomIn" style="animation-delay: 1s">We'll take
+                    <br>it from here</h1>
+                    <p>Skin care is the range of practices that support skin integrity</p> 
+                <div class="row checkprd">
+                    <div class="col-md-3"><button type="submit" name="submit" class="btn"> Check products</button></div>
+                    <div class="col-md-3"><button type="submit" name="submit" class="btn"> See our video</button></div>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="rightbanner">
+                <img src="images/banner_img.png" class="img-responsive">
+            </div>
+        </div>
+    </div>
+</div>
+
+    <!-- product section -->
+    <div class="container">
+        <div class="row product_sec">
+
+            <div class="fulwraper all-same-section blog-main-section hover-section">
+                <div class="heading-sub-heading">
+                    <h2>Skin Care Products</h2>
+                    <p>Lorem ipsum dolor sit ametlabore etcadipiscing elt..</p>
+                </div>
+
+            </div>
+            <div class="col-md-12 col-lg-3 col-xs-12 col-sm-12">
+                <div class="posts">
+                   
+                    <img src="images/Mask Group.jpg" class="img-responsive">
+                    <div class="categories_details">
+                        <div class="categories_text">
+                            <h2>Skin & Coat</h2>
+                            <center><span>$20 - $25</span>
+                            <p>Premium support for healthy skin and shiny coat</p>
+                            <button type="button">Read more</button></center>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-12 col-lg-3 col-xs-12 col-sm-12">
+                <div class="posts">
+                   
+                    <img src="images/Rectangle 10.png" class="img-responsive">
+                    <div class="categories_details">
+                        <div class="categories_text">
+                                <h2>Skin & Coat</h2>
+                            <center><span>$20 - $25</span>
+                                <p>Premium support for healthy skin and shiny coat</p>
+                            <button type="button">Read more</button></center>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-12 col-lg-3 col-xs-12 col-sm-12">
+                <div class="posts">
+                  
+                    <img src="images/Mask Group2.jpg" class="img-responsive">
+                    <div class="categories_details">
+                        <div class="categories_text">
+                                <h2>Skin & Coat</h2>
+                            <center><span>$20 - $25</span>
+                                <p>Premium support for healthy skin and shiny coat</p>
+                            <button type="button">Read more</button></center>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-12 col-lg-3 col-xs-12 col-sm-12">
+                    <div class="posts">
+                     
+                        <img src="images/Rectangle 11.png" class="img-responsive">
+                        <div class="categories_details">
+                            <div class="categories_text">
+                                    <h2>Skin & Coat</h2>
+                                <center><span>$20 - $25</span>
+                                    <p>Premium support for healthy skin and shiny coat</p>
+                                <button type="button">Read more</button></center>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+        </div>
+    </div>
+
+            <div class="testimonial">
+             
+                <div class="testimquote">
+                        <img src="images/Mask Group.png" class="img-responsive">
+                    
+                        <h1 class="animated zoomIn" style="animation-delay: 1s">What our clients 
+                            <br>Say About Us</h1>
+                        <div class="pqutote">
+                            <p>"It is a long established fact that a reader will be distracted by the readable content..."
+                                <br>
+                                -Aleena James
+                            </p> 
+                        </div>
+                    </div>
+            </div>
+       
+    <div class="container">
+        <div class="row">
+                <div class="row vitaminlist product_sec">
+
+                        <div class="fulwraper all-same-section blog-main-section hover-section">
+                            <div class="heading-sub-heading">
+                                <h2>Vitamins tablets</h2>
+                                
+                            </div>
+            
+                        </div>
+                        <div id="myCarousel" class="carousel slide" data-ride="carousel">
+                                <!-- Indicators -->
+                                <ol class="carousel-indicators">
+                                  <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                                  <li data-target="#myCarousel" data-slide-to="1"></li>
+                                  <li data-target="#myCarousel" data-slide-to="2"></li>
+                                  <li data-target="#myCarousel" data-slide-to="3"></li>
+                                </ol>
+                            
+                                <!-- Wrapper for slides -->
+                                <div class="row carousel-inner" role="listbox">
+                            
+                                  
+                                        <div class="col-md-12 col-lg-3 col-xs-12 col-sm-12 item active">
+                                                <div class="posts">
+                                                   
+                                                    <img src="images/image 7.png" class="img-responsive">
+                                                    <div class="categories_details">
+                                                        <div class="categories_text">
+                                                            <h2>Naturelo</h2>
+                                                            <center><span>$20 - $25</span>
+                                                            <p>Premium support for healthy skin and shiny coat</p>
+                                                           
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                
+                                        <div class="col-md-12 col-lg-3 col-xs-12 col-sm-12 item">
+                                                <div class="posts">
+                                                   
+                                                    <img src="images/image 8.png" class="img-responsive">
+                                                    <div class="categories_details">
+                                                        <div class="categories_text">
+                                                                <h2>Naturelo </h2>
+                                                            <center><span>$20 - $25</span>
+                                                                <p>Premium support for healthy skin and shiny coat</p>
+                                                            
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                  
+                                 
+                                        <div class="col-md-12 col-lg-3 col-xs-12 col-sm-12 item">
+                                                <div class="posts">
+                                                  
+                                                    <img src="images/constipation.jpg" class="img-responsive">
+                                                    <div class="categories_details">
+                                                        <div class="categories_text">
+                                                                <h2>Naturelo </h2>
+                                                            <center><span>$20 - $25</span>
+                                                                <p>Premium support for healthy skin and shiny coat</p>
+                                                           
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                 
+                                 
+                                        <div class="col-md-12 col-lg-3 col-xs-12 col-sm-12 item">
+                                                <div class="posts">
+                                                 
+                                                    <img src="images/image 7.png" class="img-responsive">
+                                                    <div class="categories_details">
+                                                        <div class="categories_text">
+                                                                <h2>Naturelo </h2>
+                                                            <center><span>$20 - $25</span>
+                                                                <p>Premium support for healthy skin and shiny coat</p>
+                                                           
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                   
+                              
+                                </div>
+                            
+                                <!-- Left and right controls -->
+                                <!-- <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+                                  <i class="fa fa-chevron-left" aria-hidden="true"></i>
+                                  <span class="sr-only">Previous</span>
+                                </a>
+                                <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+                                  <i class="fa fa-chevron-right" aria-hidden="true"></i>
+                                  <span class="sr-only">Next</span>
+                                </a> -->
+                              </div>
+                      
+                    </div>
+        </div>
+    <div class="row">
+        <div class="top-ofglance">
+
+                
+                    <div class="fulwraper blog-main-section">
+                        <div class="heading-sub-heading">
+                            <h2>Our Benefits</h2>
+        
+                        </div>
+                    </div>
+        
+                    <div class="row">
+                        <div class="col-md-2 col-lg-2 col-xs-12 col-sm-12"></div>
+                        <div class="col-md-4 col-lg-3 col-xs-12 col-sm-12">
+                            <div class="glancesec">
+                                <center>
+                                    <i class="fa fa-wifi"></i>
+                                </center>
+                                <div class="categories_text">
+                                    <p>High speed delivery, anytime and from anywhere</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-3 col-lg-3 col-xs-12 col-sm-12">
+                            <div class="glancesec">
+                                <center>
+                                    <i class="fa fa-cogs"></i>
+                                </center>
+                                <div class="categories_text">
+                                        <p>More than 1000 stores worldwide anytime and from anywhere.</p>
+                                    </div>
+                            </div>
+                        </div>
+                        <div class="col-md-3 col-lg-4 col-xs-12 col-sm-12">
+                            <div class="glancesec">
+                                <center>
+                                    <i class="fa fa-database"></i>
+                                </center>
+                                <div class="categories_text">
+                                        <p>We have 24 hrs customer support teamanytime and from anywhere </p>
+                                                
+                                    </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        <div class="row">
+            <div class="fulwraper all-same-section blog-main-section hover-section">
+                <div class="heading-sub-heading">
+                    <h2>Contact Us</h2>
+                    <p>Feel free to contact us</p>
+                </div>
+
+            </div>
+            <div class="col-md-2"></div>
+            <div class="col-md-8">
+                <div class="contact_form">
+                    <form class="form-horizontal" name="personForm" ng-submit="sendForm()">
+                        <div class="row p_t">
+                            <div class="col-md-6 col-lg-6">
+                                <input type="text" name="name" id="name" class="form-control" placeholder="Name" ng-model="contact.name" ng-minlength="3"
+                                    ng-maxlength="10" ng-required="true">
+                                <span class="error" ng-show="personForm.name.$touched && personForm.name.$error.required"> Required! </span>
+
+                            </div>
+                            <div class="col-md-6 col-lg-6">
+                                <select class="form-control" name="role" ng-model="contact.role" required>
+                                    <option>Naturelo</option>
+                                    <option>Constipation</option>
+                                    <option>Cymbalta</option>
+                                    <option>Organic </option>
+                                </select>
+
+                            </div>
+                        </div>
+                        <div class="row p_t">
+                            <div class="col-md-6 col-lg-6">
+                                <input type="text" name="phono" id="phono" class="form-control" ng-model="contact.phono" placeholder="Mobile" required>
+                                <span class="error" ng-show="personForm.phono.$touched && personForm.phono.$error.required"> Required! </span>
+                            </div>
+
+                            <div class="col-md-6 col-lg-6">
+                                <input name="email" type="email" class="form-control" ng-model="contact.email" placeholder="Email" required>
+                                <span class="error" ng-show="personForm.email.$touched && personForm.email.$error.required">Required!</span>
+                                <span class="error" ng-show="personForm.email.$touched && personForm.email.$error.email">Invalid Email!</span>
+
+                            </div>
+                        </div>
+                        <div class="row p_t">
+                            <div class="col-md-12 col-lg-12">
+                                <textarea name="msg" type="text" rows="5" class="form-control" placeholder="Message" ng-model="contact.msg" required></textarea>
+                                <span class="error" ng-show="personForm.msg.$touched && personForm.msg.$error.required">Required!</span>
+                            </div>
+
+                        </div>
+                        <div class="row p_t">
+                            <div class="col-md-4"></div>
+                            <div class="col-md-4 col-lg-4">
+                                <button type="submit" name="submit" id="contact" class="form-control btn"> SEND MESSAGE</button>
+                            </div>
+                            <div class="col-md-5">
+                                <span>{{msg}}</span>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+            <div class="col-md-2"></div>
+        </div>
+
+    </div>
+    </div>
+
+    <!-- footer section -->
+    <footer>
+        <div class="ftr-btm-bar fulwraper">
+            <div class="container">
+                <div class="row">
+                <div class="col-md-4 col-lg-4 col-xs-4 col-sm-4">
+                    <h2>It’s Glow<br>Time.</h2>
+                        
+                    <p class="copyright-p">
+                        ©2020 
+                        <a href="index.html">KALOSE LLC.Legal.</a>
+                        </p>
+                    </div>
+                    <div class="col-md-2 col-lg-2 col-sm-4 col-xs-4"></div>
+                    <div class="col-md-3 col-lg-3 col-sm-3 col-xs-3">
+                            <div class="footer_widget">
+                                        <h3 class="semi-title">About us</h3>
+                                        <ul class="footer-nav">
+                                            <li><a href="#">Co-living</a></li>
+                                            <li><a href="#">FAQs</a></li>
+                                            <li><a href="#">Careers</a></li>
+                                            <li><a href="#">The Journal</a></li>
+                                            <li><a href="#">Serviced living</a></li>
+                                            <li><a href="#">Venue hire</a></li>
+                                            <li><a href="#">Co-working</a></li>
+                                        </ul>
+                                    </div>
+                            
+                        </div>
+                        <div class="col-md-3 col-lg-3 col-sm-3 col-xs-3">
+                                <span class="toptopage">
+                                        <i class="fa fa-arrow-right"></i>
+                                </span>
+                                <div class="footer_widget">
+                                    <h3 class="semi-title">Get in touch</h3>
+                                    <ul class="footer-nav">
+                                        <li><a href="#">KALOSE Inc,
+                                                Century Park East Suite 803,
+                                                Los Angeles,
+                                                +44 (0) 207 543 5478</a></li>
+                                       
+                                    </ul>
+                                </div>
+                            </div>
+                    <!-- <div class="col-md-4 col-lg-4 col-sm-12">
+                            <span class="toptopage">
+                                    <i class="fa fa-arrow-right"></i>
+                            </span>
+                    </div> -->
+                    
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
+    </footer>
+
+
+
+
+
+
+    <!-- Body Wrapper End -->
+
+
+
+    <!-- JavaScript Libraries -->
+
+
+    <!-- Custom Scripts here-->
+    
+</body>
+
+</html>
